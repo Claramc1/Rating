@@ -1,0 +1,34 @@
+.caixa{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    direction:rtl;} /*fa girar l'ordre*/
+
+.color1, .unchecked{
+    color: blue;
+    transform: scale(2.5);
+    margin-left: 40px;
+    transition: 0.3s all;
+}
+
+.color1:hover, .checked{
+    color:greenyellow;
+}
+
+#star1:hover ~ span {
+    color:greenyellow;
+}
+#star2:hover ~ span {
+    color:greenyellow;
+}
+#star3:hover ~ span {
+    color:greenyellow;
+}
+#star4:hover ~ span {
+    color:greenyellow;
+}
+#star5:hover ~ span {
+    color:greenyellow;
+}
+
+/* añadir .cjecked y .unchecked a los colores*/
